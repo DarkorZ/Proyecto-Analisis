@@ -1,0 +1,18 @@
+<main class="index">
+    <header class="masthead d-flex">
+        <div class="container text-center"  style="margin-top: 50px;">
+           
+            <h3 class="mb-5">
+                <em>EMPRENDIMIENTOS</em>
+            </h3>
+               <form class="d-flex" action="/shop/search" method="GET" style="display: flex; justify-content: center;">
+                    <div style="position: relative; width: 400px;">
+                        <input class="form-control me-2" type="search" name="buscar" placeholder="Buscar" aria-label="Search" maxlength="50" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <button type="submit" style="position: absolute; top: 50%; right: 5px; transform: translateY(-50%); background: none; border: none; padding: 0;">
+                            <img src="/img/lupa.png" alt="Buscar" style="width: 20px; height: 20px;">
+                        </button>
+                    </div>
+                </form>
+        </div>
+    </header>
+</main>
