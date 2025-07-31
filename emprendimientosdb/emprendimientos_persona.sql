@@ -37,7 +37,7 @@ CREATE TABLE `persona` (
   PRIMARY KEY (`PERSONA_ID`),
   UNIQUE KEY `users_email_unique` (`PERSONA_EMAIL`),
   KEY `FK_RELATIONSHIP_11` (`DIRECCION_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,7 @@ CREATE TABLE `persona` (
 
 LOCK TABLES `persona` WRITE;
 /*!40000 ALTER TABLE `persona` DISABLE KEYS */;
-INSERT INTO `persona` VALUES (1,1,1,'Admin','123','Admin@gmail.com','$2b$10$BIIgOrWH3ki2GuJcM9hV0exEBxq97NJ6SKC5I3lGfgFCCI3BddljK','ACTIVO','2025-05-09 21:59:04','em03mrrjhl2dkgdj6pek','https://res.cloudinary.com/drwpai0vu/image/upload/v1746827473/em03mrrjhl2dkgdj6pek.png'),(5,17,2,'Emprendedor','123','Emprendedor@gmail.com','$2b$10$eimJ1g0pSk7MqO04cC9jTOaoLLkkN31UJ6BBSyIQltuvKMgzUS9T2','ACTIVO','2025-05-05 00:10:29','twpin8w6txooi1qwwu4t','https://res.cloudinary.com/drwpai0vu/image/upload/v1746401892/twpin8w6txooi1qwwu4t.png'),(6,76,2,'Emprendedor2','0987654321','Emprendedor2@gmail.com','$2b$10$S43APTHw9UT319tTPNHFmenjEG7CXieihAWWkSvFrXpgcT2qltDjS','ACTIVO','2025-05-05 00:28:39','wkafoupmz9mqjncjusud','https://res.cloudinary.com/drwpai0vu/image/upload/v1746404067/wkafoupmz9mqjncjusud.png');
+INSERT INTO `persona` VALUES (1,1,1,'Admin','123','Admin@gmail.com','$2b$10$BIIgOrWH3ki2GuJcM9hV0exEBxq97NJ6SKC5I3lGfgFCCI3BddljK','ACTIVO','2025-07-31 01:57:14','em03mrrjhl2dkgdj6pek','https://res.cloudinary.com/drwpai0vu/image/upload/v1746827473/em03mrrjhl2dkgdj6pek.png'),(5,791,2,'Vendedor01','123456789','Emprendedor@gmail.com','$2b$10$eimJ1g0pSk7MqO04cC9jTOaoLLkkN31UJ6BBSyIQltuvKMgzUS9T2','ACTIVO','2025-07-31 02:34:56','b75pbdxfcwkxhvt5bes3','https://res.cloudinary.com/drwpai0vu/image/upload/v1753926570/b75pbdxfcwkxhvt5bes3.jpg'),(6,76,2,'Emprendedor2','0987654321','Emprendedor2@gmail.com','$2b$10$S43APTHw9UT319tTPNHFmenjEG7CXieihAWWkSvFrXpgcT2qltDjS','ACTIVO','2025-07-31 02:06:27','mrqxwzaqjy1vwgmjum4l','https://res.cloudinary.com/drwpai0vu/image/upload/v1753926703/mrqxwzaqjy1vwgmjum4l.jpg'),(7,167,2,'Pepito','0966666666','Pepito@gmail.com','$2b$10$MTl9E7MxFJHUPptr7N8wcejGs7VQzTqp9fuiiI6X09VGVgWtXHuia','ACTIVO','2025-07-31 02:26:21','ge9pd4fbmkqyraofxmbi','https://res.cloudinary.com/drwpai0vu/image/upload/v1753928604/ge9pd4fbmkqyraofxmbi.jpg');
 /*!40000 ALTER TABLE `persona` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -59,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-09 17:01:49
+-- Dump completed on 2025-07-30 22:13:14

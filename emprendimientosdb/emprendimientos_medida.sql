@@ -36,7 +36,7 @@ CREATE TABLE `medida` (
 
 LOCK TABLES `medida` WRITE;
 /*!40000 ALTER TABLE `medida` DISABLE KEYS */;
-INSERT INTO `medida` VALUES (4,'Kilogramos','ACTIVO'),(5,'Gramos','ACTIVO'),(6,'Libras','ACTIVO'),(7,'Litros','ACTIVO'),(8,'Mililitros','ACTIVO');
+INSERT INTO `medida` VALUES (4,'Docenas','ACTIVO'),(5,'Unidad','ACTIVO'),(6,'Millar','ACTIVO'),(7,'Centenas','ACTIVO'),(8,'Kilo','ACTIVO');
 /*!40000 ALTER TABLE `medida` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-09 17:01:50
+-- Dump completed on 2025-07-30 22:13:14

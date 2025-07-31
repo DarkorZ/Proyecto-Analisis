@@ -37,7 +37,7 @@ CREATE TABLE `categoria` (
 
 LOCK TABLES `categoria` WRITE;
 /*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
-INSERT INTO `categoria` VALUES (1,'Natural','Productos provenientes de materia natural','abcd'),(2,'Artificial','Productos provenientes de materia artificial o endulzantes','ACTIVO'),(3,'Lacteos','Productos Lacteos caseros','ACTIVO'),(4,'Cereales','Cereales, Pan, almidon','ACTIVO');
+INSERT INTO `categoria` VALUES (1,'Orostyle','Marca Orostyle','abcd'),(2,'Pastisev','Marca Pastisev','ACTIVO'),(3,'BP','Producto de Marcas BP','ACTIVO'),(4,'Elite','Productos de marca Elite','ACTIVO');
 /*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-09 17:01:49
+-- Dump completed on 2025-07-30 22:13:14
