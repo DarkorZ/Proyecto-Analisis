@@ -64,7 +64,7 @@ module.exports = {
         doc
             .fillColor("#444444")
             .fontSize(20)
-            .text("Red De Profesionales De Cotopaxi", 50, 57);
+            .text("CyC Comercializacion", 50, 57);
 
         doc
             .fillColor("#FF0000")

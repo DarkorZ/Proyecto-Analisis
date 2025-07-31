@@ -1,18 +1,25 @@
 <main class="index">
-    <header class="masthead d-flex">
-        <div class="container text-center"  style="margin-top: 50px;">
-           
-            <h3 class="mb-5">
-                <em>EMPRENDIMIENTOS</em>
-            </h3>
-               <form class="d-flex" action="/shop/search" method="GET" style="display: flex; justify-content: center;">
-                    <div style="position: relative; width: 400px;">
-                        <input class="form-control me-2" type="search" name="buscar" placeholder="Buscar" aria-label="Search" maxlength="50" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-                        <button type="submit" style="position: absolute; top: 50%; right: 5px; transform: translateY(-50%); background: none; border: none; padding: 0;">
-                            <img src="/img/lupa.png" alt="Buscar" style="width: 20px; height: 20px;">
-                        </button>
-                    </div>
-                </form>
+  <header class="masthead d-flex align-items-center justify-content-center min-vh-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+          <form class="w-100" action="/shop/search" method="GET" role="search">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                name="buscar"
+                placeholder="Buscar"
+                aria-label="Buscar"
+                maxlength="50"
+              />
+              <button class="btn btn-outline-secondary" type="submit" aria-label="Buscar">
+                <img src="/img/lupa.png" alt="" width="20" height="20" aria-hidden="true">
+              </button>
+            </div>
+          </form>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 </main>
